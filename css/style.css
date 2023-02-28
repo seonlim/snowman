@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url("/css/index.css");
+@import url("/css/services.css");
