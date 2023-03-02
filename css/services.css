@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: dimgray;
+    font-weight: 300;
+}
+
+/** MOBILE VERSION **/
+@media (min-width: 200px) {
+    
+    /** HEADER **/
+    header {
+        background-image: url(/img/pexels-peng-liu-169647.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+
+    header aside {
+        background-color: dimgray;
+        padding: 10%;
+        display: flex;
+        align-items: center;
+    }
+
+    header figure {
+        display: flex;
+        justify-content: center;
+        column-gap: 8vw;
+    }
+
+    header figcaption {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        color: silver;
+        width: 30%;
+        line-height: 1.5;
+    }
+
+}

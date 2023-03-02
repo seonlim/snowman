@@ -6,9 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <details>
+                <summary class="fa-solid fa-bars"></summary>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </details>
+        </nav>
         <aside>
             <figure>
                 <img src="/img/industry.png" alt="factory">
@@ -16,14 +34,6 @@
             </figure>
         </aside>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
     <main>
         <article>
             <h2>
@@ -110,6 +120,7 @@
             </figure>
         </section>
         <section class="contact" id="contact">
+            <h2>Contact Inforamtion</h2>
             <form action="thankyou.html" >
                 <input type="text" name="name" id="name" placeholder="Name">
                 <input type="email" name="email" id="email" placeholder="Email">
@@ -129,13 +140,14 @@
     </main>
     <footer>
         <p>
-            Copyright &copy; 2020 <a href="#">Business Oriented</a> - designed by <a href="#">Business Company</a>
+            Copyright &copy; 2020 <span>Business Oriented</span> - 
+            designed by <span>Business Company</span>
         </p>
-        <aside>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-        </aside>
+        <ul>
+            <li><a href="" class="fa-brands fa-facebook"></a></li>
+            <li><a href="" class="fa-brands fa-twitter"></a></li>
+            <li><a href="" class="fa-brands fa-linkedin"></a></li>
+        </ul>
     </footer>
 </body>
 </html>
